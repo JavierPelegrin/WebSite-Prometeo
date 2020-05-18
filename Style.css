@@ -22,11 +22,12 @@
 .Indice {
     text-align: left;
     padding: 5px 15px;
-    
 }
 .Indice li {
     list-style: none;
-    padding: 5px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 7px;
     display: inline-block;
 }
 body {
@@ -34,8 +35,25 @@ body {
     text-align: center;
 }
 a {
+    text-decoration: none;
+    font-weight: bold;
     color: black;
 }
+
+li a:hover {
+    color: #2d3436;
+    border-bottom: 2px solid #2d3436;
+}
+
+footer a:hover {
+    color: #2d3436;
+    border-bottom: 2px solid #2d3436;
+}
+
+a:hover img{
+    opacity: 80%;
+}
+
 .Total {
     margin: auto;
     display: block;
@@ -43,12 +61,22 @@ a {
     width: 960px;
 }
 
-article {
-    margin: 30px 20%;
+#entrada{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+article {
+    padding: 50px 100px;
+}
+
+.articlePar {
+    background: #fdcb6e;
+
+}
 .enlado {
-    width: 60%;
+    padding: 0px 0px;
+    width: 600px;
     float: left;
     margin: 25px;
 }
@@ -67,6 +95,16 @@ aside {
     padding: 25px;
     float : left;
 }
+
+aside h3 {
+    font-weight: bold ;
+    text-decoration: underline;
+}
+
+aside img {
+    margin-top: 15px;
+}
+
 img {
     border: 1.5px solid black;
     width: 250px;
