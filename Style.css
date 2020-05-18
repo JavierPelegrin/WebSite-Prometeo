@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Titulos h1{
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    background: #ffc048;
+    padding: 20px;
+}
+
+.Titulos h2{
+    padding-left: 70%;
+    text-align: left ;
+    width: 250px;
+    font-size: 20px;
+}
+
+.Indice {
+    text-align: left;
+    padding: 5px 15px;
+    
+}
+.Indice li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+body {
+    background: #FFEDC4;
+    text-align: center;
+}
+a {
+    color: black;
+}
+.Total {
+    margin: auto;
+    display: block;
+    margin-top: 1px;
+    width: 960px;
+}
+
+article {
+    margin: 30px 20%;
+}
+
+.enlado {
+    width: 60%;
+    float: left;
+    margin: 25px;
+}
+
+article p {
+    padding: 10px;
+    text-align: justify;
+    font-size: larger;
+}
+
+#poema1 {
+    text-align: center;
+}
+
+aside {
+    padding: 25px;
+    float : left;
+}
+img {
+    border: 1.5px solid black;
+    width: 250px;
+    padding: 5px;
+    background: #40739e;
+}
+footer {
+    padding: 30px;
+    margin: 10px;
+    clear: both;
+}
