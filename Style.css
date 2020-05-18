@@ -102,7 +102,7 @@ article h2 {
     font-size: 15px;
 }
 
-#poema1 {
+.poema p{
     text-align: center;
 }
 
@@ -140,4 +140,11 @@ footer {
 }
 .fotoReciente img{
     margin-top: 5px;
+}
+#logo img {
+    border: unset;
+    background: unset;
+    margin: unset;
+    padding: unset;
+    width: 20px;
 }
