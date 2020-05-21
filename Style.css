@@ -69,6 +69,18 @@ a:hover img{
     margin-top: 1px;
     width: 960px;
 }
+.inputIngles {
+    display: block;
+    text-align: right;
+    margin: 5px 50px;
+}
+#bioIng {
+    display: none;
+}
+
+#esp{
+    display: inline-block;
+}
 
 #entrada{
     display: grid;
