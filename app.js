@@ -4,6 +4,7 @@ function ingles() {
     document.getElementById("bioIng").style.display="grid";
     document.getElementById("ing").style.display="none"
     document.getElementById("esp").style.display="inline-block";
+    document.getElementsByClassName("articlePar").style.display="none";
 }
 function esp() {
     document.getElementById("bioEsp").style.display="grid";
@@ -11,3 +12,4 @@ function esp() {
     document.getElementById("ing").style.display="inline-block";
     document.getElementById("esp").style.display="none";
 }
+
