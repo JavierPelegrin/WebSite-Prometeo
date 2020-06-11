@@ -109,6 +109,11 @@ article {
     width: 110%;
 }
 
+embed {
+    width: 50%;
+    height: 350px;
+}
+
 article p {
     padding: 10px;
     text-align: justify;
