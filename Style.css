@@ -42,7 +42,7 @@ li {
     padding-right: 35px;
 }
 
-body {
+body { 
     background: #FFEDC4;
     text-align: center;
 }
@@ -162,7 +162,7 @@ img {
     background: black;
 }
 
-#Seleccionado {
+.Seleccionado {
     opacity: 50%;
 }
 
